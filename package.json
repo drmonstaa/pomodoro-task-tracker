@@ -1,0 +1,29 @@
+{
+  "name": "pomodoro-task-tracker",
+  "version": "1.0.0",
+  "description": "pomodoro timer with task tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drmonstaa/pomodoro-task-tracker.git"
+  },
+  "author": "Isaac Im",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drmonstaa/pomodoro-task-tracker/issues"
+  },
+  "homepage": "https://github.com/drmonstaa/pomodoro-task-tracker#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
